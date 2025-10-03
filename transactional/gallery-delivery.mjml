@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your Gallery is Ready - Wolff Creative</mj-title>
+    <mj-preview>Your edited photos are ready for download</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#555" line-height="1.6" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <mj-section background-color="#2c2c2c" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
+          Wolff Creative Photography
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#2c2c2c" padding-bottom="20px">
+          Your Photos Are Ready! 📸
+        </mj-text>
+        <mj-text>
+          Hi [Client Name],
+        </mj-text>
+        <mj-text>
+          Great news! Your professionally edited photos from your recent session are now ready for download.
+        </mj-text>
+        
+        <mj-image src="https://via.placeholder.com/500x300/2c2c2c/d4af37?text=Gallery+Preview" alt="Gallery Preview" padding="20px 0" />
+
+        <mj-text font-weight="bold" font-size="16px">
+          Gallery Details
+        </mj-text>
+        <mj-text>
+          <strong>Session Date:</strong> [Session Date]<br/>
+          <strong>Total Photos:</strong> [Number] high-resolution images<br/>
+          <strong>Download Available Until:</strong> [Expiry Date]<br/>
+          <strong>File Format:</strong> JPG (high quality)
+        </mj-text>
+
+        <mj-button background-color="#d4af37" color="#2c2c2c" href="#" padding="30px 0">
+          View & Download Gallery
+        </mj-button>
+
+        <mj-text padding-top="20px">
+          <strong>Tips for Downloading:</strong>
+        </mj-text>
+        <mj-text>
+          • Use the "Download All" button for convenience<br/>
+          • Gallery link expires in 30 days<br/>
+          • Images are optimized for print and web use<br/>
+          • Share your favorites on social media and tag us!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9f9f9" padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" font-weight="bold" padding-bottom="15px">
+          Love Your Photos?
+        </mj-text>
+        <mj-text align="center">
+          We'd love to hear your feedback and see how you use your images. Consider leaving us a review or sharing your experience!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#2c2c2c" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          © 2024 Wolff Creative Photography Studio
+        </mj-text>
+        <mj-text align="center" color="#888" font-size="11px" padding-top="10px">
+          Need help? Contact us at support@wolffcreative.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

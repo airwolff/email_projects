@@ -1,0 +1,70 @@
+<mjml>
+  <mj-head>
+    <mj-title>Booking Confirmation - Wolff Creative</mj-title>
+    <mj-preview>Your photography session has been confirmed</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#555" line-height="1.6" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <mj-section background-color="#2c2c2c" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
+          Wolff Creative Photography
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#2c2c2c" padding-bottom="20px">
+          Booking Confirmed! ✓
+        </mj-text>
+        <mj-text>
+          Hi [Client Name],
+        </mj-text>
+        <mj-text>
+          Thank you for booking your photography session with Wolff Creative. We're excited to work with you!
+        </mj-text>
+        <mj-divider border-color="#d4af37" border-width="2px" padding="20px 0" />
+        
+        <mj-text font-weight="bold" font-size="16px" padding-top="20px">
+          Session Details
+        </mj-text>
+        <mj-text>
+          <strong>Date:</strong> [Session Date]<br/>
+          <strong>Time:</strong> [Session Time]<br/>
+          <strong>Location:</strong> [Session Location]<br/>
+          <strong>Session Type:</strong> [Portrait/Event/Product]<br/>
+          <strong>Duration:</strong> [Duration]
+        </mj-text>
+
+        <mj-text font-weight="bold" font-size="16px" padding-top="20px">
+          What to Expect
+        </mj-text>
+        <mj-text>
+          • Please arrive 10 minutes before your scheduled time<br/>
+          • Bring any props or outfits you'd like to use<br/>
+          • Photos will be delivered within 48 hours<br/>
+          • All images include professional editing
+        </mj-text>
+
+        <mj-button background-color="#d4af37" color="#2c2c2c" href="#" padding="30px 0">
+          Add to Calendar
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#2c2c2c" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          © 2024 Wolff Creative Photography Studio
+        </mj-text>
+        <mj-text align="center" color="#888" font-size="11px" padding-top="10px">
+          Questions? Reply to this email or call us at (555) 123-4567
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,239 @@
+<mjml>
+  <mj-head>
+    <mj-title>Photography Portfolio Showcase - Interactive</mj-title>
+    <mj-preview>Explore my latest photography work with interactive elements</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#555" line-height="1.6" />
+      <mj-section padding="20px 0" />
+    </mj-attributes>
+    <mj-style>
+      /* Hover effects for interactive elements */
+      .interactive-image:hover {
+        opacity: 0.85;
+        transition: opacity 0.3s ease;
+      }
+      
+      /* CSS animation for fade-in effect */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .fade-in {
+        animation: fadeIn 0.6s ease-out;
+      }
+      
+      /* Interactive button hover */
+      .cta-button:hover {
+        background-color: #c7a063 !important;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+      }
+      
+      /* Dark mode support */
+      @media (prefers-color-scheme: dark) {
+        .dark-mode-text {
+          color: #e0e0e0 !important;
+        }
+        .dark-mode-bg {
+          background-color: #1a1a1a !important;
+        }
+      }
+      
+      /* Checkbox hack for accordion/toggle functionality */
+      .toggle-checkbox {
+        display: none;
+      }
+      
+      .toggle-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+      
+      .toggle-checkbox:checked + .toggle-content {
+        max-height: 500px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <!-- Header Section -->
+    <mj-section background-color="#2c2c2c" padding-bottom="0">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="32px" font-weight="bold" padding="40px 20px 20px">
+          Wolff Creative
+        </mj-text>
+        <mj-text align="center" color="#d4af37" font-size="16px" padding="0 20px 40px">
+          Photography Portfolio Showcase
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Image with Interactive Element -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image 
+          src="https://via.placeholder.com/600x400/2c2c2c/d4af37?text=Hero+Portfolio+Image" 
+          alt="Portfolio Hero Image"
+          css-class="interactive-image fade-in"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Introduction -->
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" color="#2c2c2c" align="center" padding-bottom="20px">
+          Latest Work & Interactive Showcase
+        </mj-text>
+        <mj-text color="#555" align="center">
+          Welcome to my interactive portfolio. Hover over images, click buttons, and explore my latest photography work. This email demonstrates advanced email development techniques including CSS animations, hover effects, and dark mode support.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Interactive Portfolio Grid -->
+    <mj-section background-color="#f9f9f9" padding="20px">
+      <mj-column width="50%">
+        <mj-image 
+          src="https://via.placeholder.com/280x280/4a4a4a/d4af37?text=Portrait+1" 
+          alt="Portrait Photography 1"
+          css-class="interactive-image"
+          padding="10px"
+          href="#"
+        />
+        <mj-text align="center" font-weight="bold" padding="10px">
+          Portrait Session
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image 
+          src="https://via.placeholder.com/280x280/4a4a4a/d4af37?text=Landscape+1" 
+          alt="Landscape Photography 1"
+          css-class="interactive-image"
+          padding="10px"
+          href="#"
+        />
+        <mj-text align="center" font-weight="bold" padding="10px">
+          Landscape Series
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9f9f9" padding="0 20px 20px">
+      <mj-column width="50%">
+        <mj-image 
+          src="https://via.placeholder.com/280x280/4a4a4a/d4af37?text=Event+1" 
+          alt="Event Photography 1"
+          css-class="interactive-image"
+          padding="10px"
+          href="#"
+        />
+        <mj-text align="center" font-weight="bold" padding="10px">
+          Event Coverage
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image 
+          src="https://via.placeholder.com/280x280/4a4a4a/d4af37?text=Product+1" 
+          alt="Product Photography 1"
+          css-class="interactive-image"
+          padding="10px"
+          href="#"
+        />
+        <mj-text align="center" font-weight="bold" padding="10px">
+          Product Shots
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Interactive CTA Section -->
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold" color="#2c2c2c" padding-bottom="20px">
+          Ready to Work Together?
+        </mj-text>
+        <mj-button 
+          background-color="#d4af37" 
+          color="#2c2c2c"
+          font-weight="bold"
+          border-radius="5px"
+          css-class="cta-button"
+          href="mailto:contact@wolffcreative.com"
+        >
+          Book Your Session
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Feature Highlights -->
+    <mj-section background-color="#f4f4f4" padding="40px 20px">
+      <mj-column width="33.33%">
+        <mj-text align="center" font-size="40px" color="#d4af37" padding-bottom="10px">
+          ⚡
+        </mj-text>
+        <mj-text align="center" font-weight="bold" padding-bottom="10px">
+          Fast Turnaround
+        </mj-text>
+        <mj-text align="center" font-size="12px">
+          48-hour delivery on most projects
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.33%">
+        <mj-text align="center" font-size="40px" color="#d4af37" padding-bottom="10px">
+          🎨
+        </mj-text>
+        <mj-text align="center" font-weight="bold" padding-bottom="10px">
+          Custom Editing
+        </mj:text>
+        <mj-text align="center" font-size="12px">
+          Professional retouching included
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.33%">
+        <mj-text align="center" font-size="40px" color="#d4af37" padding-bottom="10px">
+          📱
+        </mj-text>
+        <mj-text align="center" font-weight="bold" padding-bottom="10px">
+          Mobile Friendly
+        </mj-text>
+        <mj-text align="center" font-size="12px">
+          Optimized for all devices
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social Links -->
+    <mj-section background-color="#2c2c2c" padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="16px" padding-bottom="20px">
+          Follow My Work
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="instagram" href="https://instagram.com" />
+          <mj-social-element name="facebook" href="https://facebook.com" />
+          <mj-social-element name="twitter" href="https://twitter.com" />
+          <mj-social-element name="linkedin" href="https://linkedin.com" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#1a1a1a" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#888" font-size="12px">
+          © 2024 Wolff Creative Photography Studio
+        </mj-text>
+        <mj-text align="center" color="#888" font-size="11px" padding-top="10px">
+          This is an interactive email showcase demonstrating advanced email development techniques including CSS animations, hover effects, and dark mode support.
+        </mj-text>
+        <mj-text align="center" color="#888" font-size="11px" padding-top="10px">
+          <a href="#" style="color: #d4af37; text-decoration: none;">Unsubscribe</a> | 
+          <a href="#" style="color: #d4af37; text-decoration: none;">Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
