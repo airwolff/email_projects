@@ -1,0 +1,78 @@
+<mjml>
+  <mj-head>
+    <mj-title>Payment Receipt - Wolff Creative</mj-title>
+    <mj-preview>Thank you for your payment</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#555" line-height="1.6" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <mj-section background-color="#2c2c2c" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
+          Wolff Creative Photography
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#2c2c2c" padding-bottom="20px">
+          Payment Received
+        </mj-text>
+        <mj-text>
+          Hi [Client Name],
+        </mj-text>
+        <mj-text>
+          Thank you for your payment. This email confirms that we have received your payment for your photography session.
+        </mj-text>
+        
+        <mj-divider border-color="#d4af37" border-width="2px" padding="20px 0" />
+        
+        <mj-text font-weight="bold" font-size="16px">
+          Payment Details
+        </mj-text>
+        <mj-text>
+          <strong>Invoice #:</strong> [Invoice Number]<br/>
+          <strong>Payment Date:</strong> [Payment Date]<br/>
+          <strong>Amount Paid:</strong> $[Amount]<br/>
+          <strong>Payment Method:</strong> [Card ending in ****]<br/>
+          <strong>Transaction ID:</strong> [Transaction ID]
+        </mj-text>
+
+        <mj-text font-weight="bold" font-size="16px" padding-top="20px">
+          Service Details
+        </mj-text>
+        <mj-text>
+          <strong>Session Type:</strong> [Service Description]<br/>
+          <strong>Session Date:</strong> [Session Date]<br/>
+          <strong>Status:</strong> Paid in Full
+        </mj-text>
+
+        <mj-button background-color="#d4af37" color="#2c2c2c" href="#" padding="30px 0">
+          Download Receipt (PDF)
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9f9f9" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#555" font-size="12px">
+          Keep this receipt for your records. If you have any questions about this payment, please contact us.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#2c2c2c" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          © 2024 Wolff Creative Photography Studio
+        </mj-text>
+        <mj-text align="center" color="#888" font-size="11px" padding-top="10px">
+          Questions? Email us at billing@wolffcreative.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
